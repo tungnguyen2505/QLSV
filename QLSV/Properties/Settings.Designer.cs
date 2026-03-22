@@ -33,5 +33,16 @@ namespace QLSV.Properties {
                 return ((string)(this["QLSVConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-S04M8JV\\SQLEXPRESS;Initial Catalog=QLSVDB;Persist Security In" +
+            "fo=True;User ID=tungna;Password=tungdz2512;TrustServerCertificate=True")]
+        public string QLSVDBConnectionString {
+            get {
+                return ((string)(this["QLSVDBConnectionString"]));
+            }
+        }
     }
 }
